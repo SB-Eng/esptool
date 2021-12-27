@@ -263,9 +263,9 @@ class ESPLoader(object):
     ROM_INVALID_RECV_MSG = 0x05   # response if an invalid message is received
 
     # Maximum block sized for RAM and Flash writes, respectively.
-    ESP_RAM_BLOCK   = 0x1800
+    ESP_RAM_BLOCK   = 0x80
 
-    FLASH_WRITE_SIZE = 0x400
+    FLASH_WRITE_SIZE = 0x80
 
     # Default baudrate. The ROM auto-bauds, so we can use more or less whatever we want.
     ESP_ROM_BAUD    = 115200
